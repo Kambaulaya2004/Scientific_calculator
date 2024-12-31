@@ -53,3 +53,17 @@ void trigonometricFunctions() {
 
 // Logarithmic functions
 void logarithmicFunctions() {
+	double number;
+    cout << "\nEnter a number: ";
+    cin >> number;
+
+    if (number <= 0) {
+        cout << "Error: Logarithm is undefined for non-positive numbers!" << endl;
+        return;
+    }
+
+    cout << fixed << setprecision(4);
+    cout << "ln(" << number << ") = " << log(number) << endl;
+    cout << "log10(" << number << ") = " << log10(number) << endl;
+}
+
