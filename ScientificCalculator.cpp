@@ -39,3 +39,14 @@ double divide(double a, double b) {
 
 // Trigonometric functions
 void trigonometricFunctions() {
+	double angle;
+    cout << "\nEnter the angle in radians: ";
+    cin >> angle;
+    cout << fixed << setprecision(4);
+    cout << "sin(" << angle << ") = " << sin(angle) << endl;
+    cout << "cos(" << angle << ") = " << cos(angle) << endl;
+    cout << "tan(" << angle << ") = " << tan(angle) << endl;
+    cout << "asin(" << angle << ") = " << asin(angle) << " radians" << endl;
+    cout << "acos(" << angle << ") = " << acos(angle) << " radians" << endl;
+    cout << "atan(" << angle << ") = " << atan(angle) << " radians" << endl;
+}
