@@ -109,3 +109,6 @@ void basicArithmetic() {
             break;
     }
 }
+
+int main() {
+    int choice;
