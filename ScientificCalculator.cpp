@@ -90,3 +90,22 @@ void basicArithmetic() {
     cin >> num2;
 
     cout << fixed << setprecision(4);
+    
+    switch (operation) {
+        case '+':
+            cout << num1 << " + " << num2 << " = " << add(num1, num2) << endl;
+            break;
+        case '-':
+            cout << num1 << " - " << num2 << " = " << subtract(num1, num2) << endl;
+            break;
+        case '*':
+            cout << num1 << " * " << num2 << " = " << multiply(num1, num2) << endl;
+            break;
+        case '/':
+            cout << num1 << " / " << num2 << " = " << divide(num1, num2) << endl;
+            break;
+        default:
+            cout << "Error: Invalid operation!" << endl;
+            break;
+    }
+}
