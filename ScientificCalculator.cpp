@@ -15,3 +15,8 @@ void displayMenu() {
     cout << "5. Exit" << endl;
     cout << "Enter your choice (1-5): ";
 }
+
+// Basic arithmetic functions
+double add(double a, double b) {
+    return a + b;
+}
