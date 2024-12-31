@@ -69,3 +69,13 @@ void logarithmicFunctions() {
 
 // Exponential functions
 void exponentialFunctions() {
+	double base, exponent;
+    cout << "\nEnter the base: ";
+    cin >> base;
+    cout << "Enter the exponent: ";
+    cin >> exponent;
+
+    cout << fixed << setprecision(4);
+    cout << base << " raised to the power of " << exponent << " = " << pow(base, exponent) << endl;
+    cout << "exp(" << exponent << ") = " << exp(exponent) << endl;
+}
