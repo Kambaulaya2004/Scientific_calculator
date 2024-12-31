@@ -79,3 +79,6 @@ void exponentialFunctions() {
     cout << base << " raised to the power of " << exponent << " = " << pow(base, exponent) << endl;
     cout << "exp(" << exponent << ") = " << exp(exponent) << endl;
 }
+
+// Function to handle basic arithmetic
+void basicArithmetic() {
