@@ -67,3 +67,5 @@ void logarithmicFunctions() {
     cout << "log10(" << number << ") = " << log10(number) << endl;
 }
 
+// Exponential functions
+void exponentialFunctions() {
