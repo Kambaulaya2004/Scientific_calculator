@@ -82,3 +82,11 @@ void exponentialFunctions() {
 
 // Function to handle basic arithmetic
 void basicArithmetic() {
+	cout << "\nEnter first number: ";
+    cin >> num1;
+    cout << "Enter an operation (+, -, *, /): ";
+    cin >> operation;
+    cout << "Enter second number: ";
+    cin >> num2;
+
+    cout << fixed << setprecision(4);
