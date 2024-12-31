@@ -28,3 +28,11 @@ double subtract(double a, double b) {
 double multiply(double a, double b) {
     return a * b;
 }
+
+double divide(double a, double b) {
+    if (b == 0) {
+        cout << "Error: Division by zero!" << endl;
+        return std::numeric_limits<double>::quiet_NaN(); // Return NaN if division by zero
+    }
+    return a / b;
+}
