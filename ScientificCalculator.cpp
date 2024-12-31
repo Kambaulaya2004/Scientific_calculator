@@ -50,3 +50,6 @@ void trigonometricFunctions() {
     cout << "acos(" << angle << ") = " << acos(angle) << " radians" << endl;
     cout << "atan(" << angle << ") = " << atan(angle) << " radians" << endl;
 }
+
+// Logarithmic functions
+void logarithmicFunctions() {
