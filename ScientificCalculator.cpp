@@ -112,3 +112,7 @@ void basicArithmetic() {
 
 int main() {
     int choice;
+    
+    while (true) {
+        displayMenu();
+        cin >> choice;
