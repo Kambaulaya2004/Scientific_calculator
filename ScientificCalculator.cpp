@@ -82,6 +82,9 @@ void exponentialFunctions() {
 
 // Function to handle basic arithmetic
 void basicArithmetic() {
+	double num1, num2;
+    char operation;
+	
 	cout << "\nEnter first number: ";
     cin >> num1;
     cout << "Enter an operation (+, -, *, /): ";
