@@ -116,3 +116,25 @@ int main() {
     while (true) {
         displayMenu();
         cin >> choice;
+        
+    switch (choice) {
+            case 1:
+                basicArithmetic();
+                break;
+            case 2:
+                trigonometricFunctions();
+                break;
+            case 3:
+                logarithmicFunctions();
+                break;
+            case 4:
+                exponentialFunctions();
+                break;
+            case 5:
+                cout << "Exiting the calculator. Goodbye!" << endl;
+                return 0;
+            default:
+                cout << "Invalid choice, please select a valid option." << endl;
+                break;
+        }
+    }
